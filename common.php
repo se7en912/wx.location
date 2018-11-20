@@ -12,7 +12,7 @@ public function jssdk(){
 	$jssdk = new JSSDK($APPID, $APPSECRET);
 	$signPackage = $jssdk->GetSignPackage();
 	
-	//        echo json_encode($signPackage);die;
+//      echo json_encode($signPackage);die;
 }
 
 ?>
